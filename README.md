@@ -22,6 +22,10 @@ After analysis this API returns a JSON response as the following
     "sentiment": "positive/negative/neutral"
     }
 To test our API,  I have also included a `test.py` file with the project 
+### prerequisite 
+
+ - python 3
+ - pip 
 
 ### Project Setup
 Clone the repository to your local machine using the following command:

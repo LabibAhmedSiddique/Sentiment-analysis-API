@@ -94,5 +94,5 @@ after running the `app.py` the flask server will start. after starting paste the
 
     http://127.0.0.1:5000/analyze
 	
-![Form](https://drive.google.com/file/d/1nxybB_PbcVYgN1tvUt4WZ8clZk74RFS7/view?usp=sharing)
+![My Image](src/Capture2.PNG)
 write your sentence on the form and hit run!!!

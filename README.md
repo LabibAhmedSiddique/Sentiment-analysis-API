@@ -23,17 +23,23 @@ After analysis this API returns a JSON response as the following
     {
     "sentiment": "positive/negative/neutral"
     }
-To test our API,  I have also included a `test.py` file with the project 
+To test the API,  I have also included a `test.py` file with the project 
 ### prerequisite 
 
  - python 3
- - pip
- - Virtual Environment 
+ - pip 
+ - vurtual environment
 
 ### Project Setup
 
-Clone the repository to your local machine using the following    command:
-       git clone https://github.com/LabibAhmedSiddique/Sentiment-analysis-API.git    Change to the project directory using the following command
+Clone the repository to your local machine using the following   
+ command:
+
+   
+
+    git clone https://github.com/LabibAhmedSiddique/Sentiment-analysis-API.git   
+    
+   get into to the project directory using the following command
 
  
 

@@ -27,7 +27,8 @@ To test our API,  I have also included a `test.py` file with the project
 ### prerequisite 
 
  - python 3
- - pip 
+ - pip
+ - Virtual Environment 
 
 ### Project Setup
 

@@ -13,6 +13,8 @@ On the `analyze`  endpoint it accepts a `POST` method.  It contains a JSON objec
     "text": "Text to be analyzed"
     }
 
+
+
 Now it's passed on the `sentiment_analysis ()` function to do a sentiment analysis classification. 
 in this `sentiment_analysis ()`  I have used `distilbert-base-uncased` from [HuggingFace](https://huggingface.co/ "HuggingFace")
 
@@ -28,10 +30,11 @@ To test our API,  I have also included a `test.py` file with the project
  - pip 
 
 ### Project Setup
-Clone the repository to your local machine using the following command:
 
-    git clone https://github.com/LabibAhmedSiddique/Sentiment-analysis-API.git
-Change to the project directory using the following command 
+Clone the repository to your local machine using the following    command:
+       git clone https://github.com/LabibAhmedSiddique/Sentiment-analysis-API.git    Change to the project directory using the following command
+
+ 
 
     cd Sentiment-analysis-API
 
@@ -43,7 +46,10 @@ Now activate the virtual environment with the following command
 
 
     eval_test/Scripts/activate
-after you activate the virtual environment run the `requirements.txt` file to install all the dependencies 
+after you activate the virtual environment run the `requirements.txt` file to install all the dependencies . To do so run the following command 
+
+     pip install -r requirements.py
+
 ### Run the project
 Now inside terminal run the `app.py` file using the following command
 
@@ -53,7 +59,7 @@ The flask server will start  and the terminal should have the following output
 
 
 ```bash
-    (eval_test) E:\Sentiment-project>python app.py
+    (eval_test) E:\Sentiment-analysis-API>python app.py
      * Serving Flask app 'app'
      * Debug mode: on
     WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.

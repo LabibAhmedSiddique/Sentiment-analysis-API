@@ -55,7 +55,7 @@ Now activate the virtual environment with the following command
     eval_test/Scripts/activate
 after you activate the virtual environment run the `requirements.txt` file to install all the dependencies . To do so run the following command 
 
-     pip install -r requirements.py
+     pip install -r requirements.txt
 
 ### Run the project
 Now inside terminal run the `app.py` file using the following command

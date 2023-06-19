@@ -5,7 +5,7 @@ I have made a service  that exposes a RESTful API endpoint for sentiment analysi
 
 I have implimented the webserver using python Flask because of it's versatility and lightweight nature 
 
-On the `analyze`  endpoint it accepts a `POST` method.  It contains a JSON object on 
+Inside `app.py` On the `analyze`  endpoint it accepts a `POST` method.  It contains a JSON object on 
 `data = request.get_json()`. The recieved structure is as the following
 
     
